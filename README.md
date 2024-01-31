@@ -9,3 +9,8 @@ This repository includes the implementation details of Pixel-wise Color Constanc
 
 *PWCC learns a pixel-wise mapping, referred to as an illuminant map, between input and ground truth images. This mapping provides a white-balancing operation to the input image so that color casts can be minimized.*
 
+Conda environment setup:
+```
+# In Linux Environment:
+$ while read requirement; do conda install --yes $requirement || pip install $requirement; done < envcc.txt
+```
