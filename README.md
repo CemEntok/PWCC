@@ -23,13 +23,13 @@ If you use the provided method in this repository, please cite the following pap
 
 ```
 
-@misc{pwcc,
-  title={Pixel-wise Color Constancy via Smoothing Techniques in Multi-Illuminant Scenes},
-  author={Entok, Umut Cem, Laakom Firas, Pakdaman Farhad, and Gabbouj Moncef},
-  year = {2024},
-  print = {},
-  archivePrefix = {arXiv},
-  doi = {}
+@misc{entok2024pixelwise,
+      title={Pixel-Wise Color Constancy via Smoothness Techniques in Multi-Illuminant Scenes}, 
+      author={Umut Cem Entok and Firas Laakom and Farhad Pakdaman and Moncef Gabbouj},
+      year={2024},
+      eprint={2402.02922},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
 ## Downloading the Dataset
