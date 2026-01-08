@@ -19,17 +19,21 @@ $ while read requirement; do conda install --yes $requirement || pip install $re
 
 # Citation
 
-If you use the provided method in this repository, please cite the following paper:
+If you use the provided method in this repository, please cite the following article:
 
 ```
 
-@misc{entok2024pixelwise,
-      title={Pixel-Wise Color Constancy via Smoothness Techniques in Multi-Illuminant Scenes}, 
-      author={Umut Cem Entok and Firas Laakom and Farhad Pakdaman and Moncef Gabbouj},
-      year={2024},
-      eprint={2402.02922},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@INPROCEEDINGS{10647547,
+  author={Entok, Umut Cem and Laakom, Firas and Pakdaman, Farhad and Gabbouj, Moncef},
+  booktitle={2024 IEEE International Conference on Image Processing (ICIP)}, 
+  title={Pixel-Wise Color Constancy Via Smoothness Techniques In Multi-Illuminant Scenes}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={2737-2743},
+  keywords={Training;Reflectivity;Uncertainty;Smoothing methods;Image color analysis;Lighting;Estimation;Color Constancy;Multi-Illuminant Estimation;Total Variation;Bilateral Filter;Label-smoothing},
+  doi={10.1109/ICIP51287.2024.10647547}}
+
 }
 ```
 ## Downloading the Dataset
